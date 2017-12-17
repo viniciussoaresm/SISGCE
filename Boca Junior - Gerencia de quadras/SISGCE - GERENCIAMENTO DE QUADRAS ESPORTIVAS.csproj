@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D2A7AC26-16E4-4264-B3AC-2EF74A4CC67F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Boca_Junior___Gerencia_de_quadras</RootNamespace>
+    <AssemblyName>SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Vinicius\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>D006D981F00ADEA6148DB2939080BE4823FA41A7</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.ProcessingObjectModel.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.WebForms.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="PdfSharp">
+      <HintPath>..\packages\PDFsharp.1.32.3057.0\lib\net20\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Charting">
+      <HintPath>..\packages\PDFsharp.1.32.3057.0\lib\net20\PdfSharp.Charting.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="conexao.cs" />
+    <Compile Include="controlerOperador.cs" />
+    <Compile Include="controlers\controlerInstrutor.cs" />
+    <Compile Include="controlers\controlerAluno.cs" />
+    <Compile Include="controlers\controlerEndereco.cs" />
+    <Compile Include="controlers\controlerReserva.cs" />
+    <Compile Include="controlers\controlerCliente.cs" />
+    <Compile Include="controlers\controlerTurma.cs" />
+    <Compile Include="DAO\daoTurma.cs" />
+    <Compile Include="DAO\daoInstrutor.cs" />
+    <Compile Include="DAO\daoAluno.cs" />
+    <Compile Include="DAO\daoClienteResponsavel.cs" />
+    <Compile Include="DAO\daoLogin.cs" />
+    <Compile Include="DAO\daoEndereco.cs" />
+    <Compile Include="DAO\daoReserva.cs" />
+    <Compile Include="DAO\daoCliente.cs" />
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs" />
+    <Compile Include="models\modelEnderecoInstrutor.cs" />
+    <Compile Include="models\modelInstrutor.cs" />
+    <Compile Include="models\modelAluno.cs" />
+    <Compile Include="models\modelClienteResponsavel.cs" />
+    <Compile Include="models\modelOperador.cs" />
+    <Compile Include="models\modelCidade.cs" />
+    <Compile Include="models\modelBairro.cs" />
+    <Compile Include="models\modelEndereco.cs" />
+    <Compile Include="models\modelClienteEndereco.cs" />
+    <Compile Include="models\modelReserva.cs" />
+    <Compile Include="models\modelCliente.cs" />
+    <Compile Include="models\modelUf.cs" />
+    <Compile Include="models\modelTurma.cs" />
+    <Compile Include="viewContrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewContrato.Designer.cs">
+      <DependentUpon>viewContrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\ReservasData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\ReservasData.Designer.cs">
+      <DependentUpon>ReservasData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tools.cs" />
+    <Compile Include="views\viewInserirAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewInserirAluno.Designer.cs">
+      <DependentUpon>viewInserirAluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewLogin.Designer.cs">
+      <DependentUpon>viewLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewRelatorioCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewRelatorioCliente.Designer.cs">
+      <DependentUpon>viewRelatorioCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewHome.Designer.cs">
+      <DependentUpon>viewHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewGerenciarLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewGerenciarLogin.Designer.cs">
+      <DependentUpon>viewGerenciarLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="views\viewCadastrarTurma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewCadastrarTurma.Designer.cs">
+      <DependentUpon>viewCadastrarTurma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewCadastroAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewCadastroAluno.Designer.cs">
+      <DependentUpon>viewCadastroAluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewCadastroInstrutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewCadastroInstrutor.Designer.cs">
+      <DependentUpon>viewCadastroInstrutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewRelatorioFuncionariocs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewRelatorioFuncionariocs.Designer.cs">
+      <DependentUpon>viewRelatorioFuncionariocs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewRelatorioReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewRelatorioReserva.Designer.cs">
+      <DependentUpon>viewRelatorioReserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewRelatorioTurma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewRelatorioTurma.Designer.cs">
+      <DependentUpon>viewRelatorioTurma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewReservaQuadra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewReservaQuadra.Designer.cs">
+      <DependentUpon>viewReservaQuadra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewTelaCadastroCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewTelaCadastroCliente.Designer.cs">
+      <DependentUpon>viewTelaCadastroCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewTelaRelatorioAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewTelaRelatorioAluno.Designer.cs">
+      <DependentUpon>viewTelaRelatorioAluno.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Contrato.rdlc" />
+    <EmbeddedResource Include="viewContrato.resx">
+      <DependentUpon>viewContrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\ReservasData.resx">
+      <DependentUpon>ReservasData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewInserirAluno.resx">
+      <DependentUpon>viewInserirAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewLogin.resx">
+      <DependentUpon>viewLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewRelatorioCliente.resx">
+      <DependentUpon>viewRelatorioCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewGerenciarLogin.resx">
+      <DependentUpon>viewGerenciarLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="views\viewCadastrarTurma.resx">
+      <DependentUpon>viewCadastrarTurma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewCadastroAluno.resx">
+      <DependentUpon>viewCadastroAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewCadastroInstrutor.resx">
+      <DependentUpon>viewCadastroInstrutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewHome.resx">
+      <DependentUpon>viewHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewRelatorioFuncionariocs.resx">
+      <DependentUpon>viewRelatorioFuncionariocs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewRelatorioReserva.resx">
+      <DependentUpon>viewRelatorioReserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewRelatorioTurma.resx">
+      <DependentUpon>viewRelatorioTurma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewReservaQuadra.resx">
+      <DependentUpon>viewReservaQuadra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewTelaCadastroCliente.resx">
+      <DependentUpon>viewTelaCadastroCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewTelaRelatorioAluno.resx">
+      <DependentUpon>viewTelaRelatorioAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\football.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\football1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo botao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JJJ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JJJ1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JJJ2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FFF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FFFF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DDFF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OOF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OOF1.png" />
+    <None Include="Resources\fundo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tecido-laranja-patchwork.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vermelho18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business_application_addmale_useradd_insert_add_user_client_23122.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_floppy_12557.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_exit_delete_delete_12417.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluefilefolder_azul_archivo_12582.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_accept_ok_apply_12418.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel2_35735.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_refuse_remove_delete_12601.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue_search_find_12583.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_key_locked_12546.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluekey_azu_12515.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_users_customers_clients_people_12438.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_shutdown_poweroff__12422.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notificacao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_insert_append_12492.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quadrado-amarelo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluepaper_azu_12590.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluecarddestinationuser_azul_tarjeta_dedestin_12437.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluefilefolder_azul_archivo_125821.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_users_customers_clients_people_124381.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_user_client_person_12581.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_list_paper_12537.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TESTE.ICON.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_clock_12607.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

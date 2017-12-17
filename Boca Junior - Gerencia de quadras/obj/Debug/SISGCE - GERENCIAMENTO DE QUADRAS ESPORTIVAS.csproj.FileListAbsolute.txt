@@ -1,0 +1,165 @@
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe.config
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.pdb
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewGerenciarLogin.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.Properties.Resources.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastrarTurma.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastroAluno.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastroFunionario.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewHome.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioFuncionariocs.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioReserva.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioTurma.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewReservaQuadra.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewTelaCadastroCliente.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewTelaRelatorioAluno.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.csproj.GenerateResource.Cache
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.pdb
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioCliente.resources
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe.config
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.pdb
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioCliente.resources
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewGerenciarLogin.resources
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.Properties.Resources.resources
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastrarTurma.resources
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastroAluno.resources
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastroFunionario.resources
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewHome.resources
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioFuncionariocs.resources
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioReserva.resources
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioTurma.resources
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewReservaQuadra.resources
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewTelaCadastroCliente.resources
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewTelaRelatorioAluno.resources
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.csproj.GenerateResource.Cache
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.pdb
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe.config
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioCliente.resources
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewGerenciarLogin.resources
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.Properties.Resources.resources
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastrarTurma.resources
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastroAluno.resources
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastroFunionario.resources
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewHome.resources
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioFuncionariocs.resources
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioReserva.resources
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioTurma.resources
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewReservaQuadra.resources
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewTelaCadastroCliente.resources
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewTelaRelatorioAluno.resources
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.csproj.GenerateResource.Cache
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.pdb
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.pdb
+C:\Users\Vinicius\Documents\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewLogin.resources
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewLogin.resources
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe.config
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.pdb
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.pdb
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewLogin.resources
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioCliente.resources
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewGerenciarLogin.resources
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.Properties.Resources.resources
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastrarTurma.resources
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastroAluno.resources
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastroFunionario.resources
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewHome.resources
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioFuncionariocs.resources
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioReserva.resources
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioTurma.resources
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewReservaQuadra.resources
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewTelaCadastroCliente.resources
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewTelaRelatorioAluno.resources
+C:\Users\User\Documents\tcc\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.csproj.GenerateResource.Cache
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe.config
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.pdb
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.pdb
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewLogin.resources
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioCliente.resources
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewGerenciarLogin.resources
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.Properties.Resources.resources
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastrarTurma.resources
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastroAluno.resources
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastroFunionario.resources
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewHome.resources
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioFuncionariocs.resources
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioReserva.resources
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioTurma.resources
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewReservaQuadra.resources
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewTelaCadastroCliente.resources
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewTelaRelatorioAluno.resources
+C:\Users\Vinicius\Documents\SISGCE\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.csproj.GenerateResource.Cache
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe.config
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.pdb
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.pdb
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewLogin.resources
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioCliente.resources
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewGerenciarLogin.resources
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.Properties.Resources.resources
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastrarTurma.resources
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastroAluno.resources
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastroFunionario.resources
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewHome.resources
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioFuncionariocs.resources
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioReserva.resources
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioTurma.resources
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewReservaQuadra.resources
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewTelaCadastroCliente.resources
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewTelaRelatorioAluno.resources
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.csproj.GenerateResource.Cache
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewInserirAluno.resources
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.ReservasData.resources
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\PdfSharp.Charting.dll
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\PdfSharp.dll
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\PdfSharp.xml
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\PdfSharp.Charting.xml
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewContrato.resources
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\RdlCompile.cache
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\RdlCompile.compiled
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\PdfSharp.Charting.dll
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\PdfSharp.dll
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\PdfSharp.xml
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\PdfSharp.Charting.xml
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewContrato.resources
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.ReservasData.resources
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewInserirAluno.resources
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\RdlCompile.cache
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\RdlCompile.compiled
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe.manifest
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.application
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\EntityFramework.dll
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\EntityFramework.xml
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe.manifest
+C:\Users\Vinicius\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.application
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe.manifest
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.application
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe.manifest
+C:\Users\User\Documents\SISGCE\Boca Junior - Gerencia de quadras\obj\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.application

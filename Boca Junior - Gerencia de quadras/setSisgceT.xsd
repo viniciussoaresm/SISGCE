@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="setSisgceT" targetNamespace="http://tempuri.org/setSisgceT.xsd" xmlns:mstns="http://tempuri.org/setSisgceT.xsd" xmlns="http://tempuri.org/setSisgceT.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="sisgceConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="sisgceConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Boca_Junior___Gerencia_de_quadras.Properties.Settings.GlobalReference.Default.sisgceConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="alunoTableAdapter" GeneratorDataComponentClassName="alunoTableAdapter" Name="aluno" UserDataComponentName="alunoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="sisgceConnectionString (Settings)" DbObjectName="sisgce.aluno" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `codAluno`, `RG`, `nome`, `data_nascimento`, `codTurma`, `sexo` FROM `aluno`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="bairroTableAdapter" GeneratorDataComponentClassName="bairroTableAdapter" Name="bairro" UserDataComponentName="bairroTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="sisgceConnectionString (Settings)" DbObjectName="sisgce.bairro" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `bairro_codigo`, `cidade_codigo`, `bairro_descricao` FROM `bairro`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="cidadeTableAdapter" GeneratorDataComponentClassName="cidadeTableAdapter" Name="cidade" UserDataComponentName="cidadeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="sisgceConnectionString (Settings)" DbObjectName="sisgce.cidade" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `cidade_codigo`, `uf_codigo`, `cidade_descricao`, `cidade_cep` FROM `cidade`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="clienteTableAdapter" GeneratorDataComponentClassName="clienteTableAdapter" Name="cliente" UserDataComponentName="clienteTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="sisgceConnectionString (Settings)" DbObjectName="sisgce.cliente" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idCliente`, `nome`, `CPF`, `RG`, `telefone`, `telefone_op`, `sexo`, `data_nascimento`, `data_cadastro`, `codClienteEndereco` FROM `cliente`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="cliente_enderecoTableAdapter" GeneratorDataComponentClassName="cliente_enderecoTableAdapter" Name="cliente_endereco" UserDataComponentName="cliente_enderecoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="sisgceConnectionString (Settings)" DbObjectName="sisgce.cliente_endereco" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `codClienteEndereco`, `cep`, `rua`, `numero`, `bairro`, `estado`, `complemento`, `cidade` FROM `cliente_endereco`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="cliente_responsavelTableAdapter" GeneratorDataComponentClassName="cliente_responsavelTableAdapter" Name="cliente_responsavel" UserDataComponentName="cliente_responsavelTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="sisgceConnectionString (Settings)" DbObjectName="sisgce.cliente_responsavel" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `codClienteResponsavel`, `codCliente`, `parentesco`, `codAluno` FROM `cliente_responsavel`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="contratoTableAdapter" GeneratorDataComponentClassName="contratoTableAdapter" Name="contrato" UserDataComponentName="contratoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="sisgceConnectionString (Settings)" DbObjectName="sisgce.contrato" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `codContrato`, `codCliente FK`, `codReserva FK`, `data` FROM `contrato`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="enderecoTableAdapter" GeneratorDataComponentClassName="enderecoTableAdapter" Name="endereco" UserDataComponentName="enderecoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="sisgceConnectionString (Settings)" DbObjectName="sisgce.endereco" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `endereco_codigo`, `bairro_codigo`, `endereco_cep`, `endereco_logradouro` FROM `endereco`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="instrutorTableAdapter" GeneratorDataComponentClassName="instrutorTableAdapter" Name="instrutor" UserDataComponentName="instrutorTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="sisgceConnectionString (Settings)" DbObjectName="sisgce.instrutor" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `codInstrutor`, `nome`, `RG`, `telefone`, `telefoneOp`, `CPF`, `codEnderecoInstrutor`, `sexo`, `data_nascimento`, `data_cadastro` FROM `instrutor`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="instrutor_enderecoTableAdapter" GeneratorDataComponentClassName="instrutor_enderecoTableAdapter" Name="instrutor_endereco" UserDataComponentName="instrutor_enderecoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="sisgceConnectionString (Settings)" DbObjectName="sisgce.instrutor_endereco" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `codInstrutorEndereco`, `rua`, `bairro`, `cidade`, `estado`, `cep`, `numero`, `complemento` FROM `instrutor_endereco`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="operadorTableAdapter" GeneratorDataComponentClassName="operadorTableAdapter" Name="operador" UserDataComponentName="operadorTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="sisgceConnectionString (Settings)" DbObjectName="sisgce.operador" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `codOperador`, `nome`, `login`, `senha`, `adm`, `ativo` FROM `operador`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="paisesTableAdapter" GeneratorDataComponentClassName="paisesTableAdapter" Name="paises" UserDataComponentName="paisesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="sisgceConnectionString (Settings)" DbObjectName="sisgce.paises" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `iso`, `iso3`, `numcode`, `nome` FROM `paises`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="reservaTableAdapter" GeneratorDataComponentClassName="reservaTableAdapter" Name="reserva" UserDataComponentName="reservaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="sisgceConnectionString (Settings)" DbObjectName="sisgce.reserva" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `codReserva`, `codCliente`, `quadra`, `data`, `horario_entrada`, `horario_saida`, `status` FROM `reserva`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="sp.cepaberto_parte_1TableAdapter" GeneratorDataComponentClassName="sp_cepaberto_parte_1TableAdapter" Name="sp.cepaberto_parte_1" UserDataComponentName="sp.cepaberto_parte_1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="sisgceConnectionString (Settings)" DbObjectName="sisgce.`sp.cepaberto_parte_1`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `01001000`, `ENDERECO`, `BAIRRO`, `NUM`, `26` FROM `sp.cepaberto_parte_1`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tmb_endTableAdapter" GeneratorDataComponentClassName="tmb_endTableAdapter" Name="tmb_end" UserDataComponentName="tmb_endTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="sisgceConnectionString (Settings)" DbObjectName="sisgce.tmb_end" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `cep`, `rua`, `bairro`, `cidade` FROM `tmb_end`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="turmaTableAdapter" GeneratorDataComponentClassName="turmaTableAdapter" Name="turma" UserDataComponentName="turmaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="sisgceConnectionString (Settings)" DbObjectName="sisgce.turma" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `codTurma`, `codInstrutor`, `periodo`, `categoria`, `nome` FROM `turma`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ufTableAdapter" GeneratorDataComponentClassName="ufTableAdapter" Name="uf" UserDataComponentName="ufTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="sisgceConnectionString (Settings)" DbObjectName="sisgce.uf" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `uf_codigo`, `uf_sigla`, `uf_descricao` FROM `uf`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="setSisgceT" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="setSisgceT" msprop:Generator_UserDSName="setSisgceT">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="aluno" msprop:Generator_TableClassName="alunoDataTable" msprop:Generator_TableVarName="tablealuno" msprop:Generator_TablePropName="aluno" msprop:Generator_RowDeletingName="alunoRowDeleting" msprop:Generator_RowChangingName="alunoRowChanging" msprop:Generator_RowEvHandlerName="alunoRowChangeEventHandler" msprop:Generator_RowDeletedName="alunoRowDeleted" msprop:Generator_UserTableName="aluno" msprop:Generator_RowChangedName="alunoRowChanged" msprop:Generator_RowEvArgName="alunoRowChangeEvent" msprop:Generator_RowClassName="alunoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="bairro" msprop:Generator_TableClassName="bairroDataTable" msprop:Generator_TableVarName="tablebairro" msprop:Generator_TablePropName="bairro" msprop:Generator_RowDeletingName="bairroRowDeleting" msprop:Generator_RowChangingName="bairroRowChanging" msprop:Generator_RowEvHandlerName="bairroRowChangeEventHandler" msprop:Generator_RowDeletedName="bairroRowDeleted" msprop:Generator_UserTableName="bairro" msprop:Generator_RowChangedName="bairroRowChanged" msprop:Generator_RowEvArgName="bairroRowChangeEvent" msprop:Generator_RowClassName="bairroRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="cidade" msprop:Generator_TableClassName="cidadeDataTable" msprop:Generator_TableVarName="tablecidade" msprop:Generator_TablePropName="cidade" msprop:Generator_RowDeletingName="cidadeRowDeleting" msprop:Generator_RowChangingName="cidadeRowChanging" msprop:Generator_RowEvHandlerName="cidadeRowChangeEventHandler" msprop:Generator_RowDeletedName="cidadeRowDeleted" msprop:Generator_UserTableName="cidade" msprop:Generator_RowChangedName="cidadeRowChanged" msprop:Generator_RowEvArgName="cidadeRowChangeEvent" msprop:Generator_RowClassName="cidadeRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="cliente" msprop:Generator_TableClassName="clienteDataTable" msprop:Generator_TableVarName="tablecliente" msprop:Generator_TablePropName="cliente" msprop:Generator_RowDeletingName="clienteRowDeleting" msprop:Generator_RowChangingName="clienteRowChanging" msprop:Generator_RowEvHandlerName="clienteRowChangeEventHandler" msprop:Generator_RowDeletedName="clienteRowDeleted" msprop:Generator_UserTableName="cliente" msprop:Generator_RowChangedName="clienteRowChanged" msprop:Generator_RowEvArgName="clienteRowChangeEvent" msprop:Generator_RowClassName="clienteRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="cliente_endereco" msprop:Generator_TableClassName="cliente_enderecoDataTable" msprop:Generator_TableVarName="tablecliente_endereco" msprop:Generator_TablePropName="cliente_endereco" msprop:Generator_RowDeletingName="cliente_enderecoRowDeleting" msprop:Generator_RowChangingName="cliente_enderecoRowChanging" msprop:Generator_RowEvHandlerName="cliente_enderecoRowChangeEventHandler" msprop:Generator_RowDeletedName="cliente_enderecoRowDeleted" msprop:Generator_UserTableName="cliente_endereco" msprop:Generator_RowChangedName="cliente_enderecoRowChanged" msprop:Generator_RowEvArgName="cliente_enderecoRowChangeEvent" msprop:Generator_RowClassName="cliente_enderecoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="cliente_responsavel" msprop:Generator_TableClassName="cliente_responsavelDataTable" msprop:Generator_TableVarName="tablecliente_responsavel" msprop:Generator_TablePropName="cliente_responsavel" msprop:Generator_RowDeletingName="cliente_responsavelRowDeleting" msprop:Generator_RowChangingName="cliente_responsavelRowChanging" msprop:Generator_RowEvHandlerName="cliente_responsavelRowChangeEventHandler" msprop:Generator_RowDeletedName="cliente_responsavelRowDeleted" msprop:Generator_UserTableName="cliente_responsavel" msprop:Generator_RowChangedName="cliente_responsavelRowChanged" msprop:Generator_RowEvArgName="cliente_responsavelRowChangeEvent" msprop:Generator_RowClassName="cliente_responsavelRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="contrato" msprop:Generator_TableClassName="contratoDataTable" msprop:Generator_TableVarName="tablecontrato" msprop:Generator_TablePropName="contrato" msprop:Generator_RowDeletingName="contratoRowDeleting" msprop:Generator_RowChangingName="contratoRowChanging" msprop:Generator_RowEvHandlerName="contratoRowChangeEventHandler" msprop:Generator_RowDeletedName="contratoRowDeleted" msprop:Generator_UserTableName="contrato" msprop:Generator_RowChangedName="contratoRowChanged" msprop:Generator_RowEvArgName="contratoRowChangeEvent" msprop:Generator_RowClassName="contratoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="endereco" msprop:Generator_TableClassName="enderecoDataTable" msprop:Generator_TableVarName="tableendereco" msprop:Generator_TablePropName="endereco" msprop:Generator_RowDeletingName="enderecoRowDeleting" msprop:Generator_RowChangingName="enderecoRowChanging" msprop:Generator_RowEvHandlerName="enderecoRowChangeEventHandler" msprop:Generator_RowDeletedName="enderecoRowDeleted" msprop:Generator_UserTableName="endereco" msprop:Generator_RowChangedName="enderecoRowChanged" msprop:Generator_RowEvArgName="enderecoRowChangeEvent" msprop:Generator_RowClassName="enderecoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="instrutor" msprop:Generator_TableClassName="instrutorDataTable" msprop:Generator_TableVarName="tableinstrutor" msprop:Generator_TablePropName="instrutor" msprop:Generator_RowDeletingName="instrutorRowDeleting" msprop:Generator_RowChangingName="instrutorRowChanging" msprop:Generator_RowEvHandlerName="instrutorRowChangeEventHandler" msprop:Generator_RowDeletedName="instrutorRowDeleted" msprop:Generator_UserTableName="instrutor" msprop:Generator_RowChangedName="instrutorRowChanged" msprop:Generator_RowEvArgName="instrutorRowChangeEvent" msprop:Generator_RowClassName="instrutorRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="instrutor_endereco" msprop:Generator_TableClassName="instrutor_enderecoDataTable" msprop:Generator_TableVarName="tableinstrutor_endereco" msprop:Generator_TablePropName="instrutor_endereco" msprop:Generator_RowDeletingName="instrutor_enderecoRowDeleting" msprop:Generator_RowChangingName="instrutor_enderecoRowChanging" msprop:Generator_RowEvHandlerName="instrutor_enderecoRowChangeEventHandler" msprop:Generator_RowDeletedName="instrutor_enderecoRowDeleted" msprop:Generator_UserTableName="instrutor_endereco" msprop:Generator_RowChangedName="instrutor_enderecoRowChanged" msprop:Generator_RowEvArgName="instrutor_enderecoRowChangeEvent" msprop:Generator_RowClassName="instrutor_enderecoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="operador" msprop:Generator_TableClassName="operadorDataTable" msprop:Generator_TableVarName="tableoperador" msprop:Generator_TablePropName="operador" msprop:Generator_RowDeletingName="operadorRowDeleting" msprop:Generator_RowChangingName="operadorRowChanging" msprop:Generator_RowEvHandlerName="operadorRowChangeEventHandler" msprop:Generator_RowDeletedName="operadorRowDeleted" msprop:Generator_UserTableName="operador" msprop:Generator_RowChangedName="operadorRowChanged" msprop:Generator_RowEvArgName="operadorRowChangeEvent" msprop:Generator_RowClassName="operadorRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="paises" msprop:Generator_TableClassName="paisesDataTable" msprop:Generator_TableVarName="tablepaises" msprop:Generator_TablePropName="paises" msprop:Generator_RowDeletingName="paisesRowDeleting" msprop:Generator_RowChangingName="paisesRowChanging" msprop:Generator_RowEvHandlerName="paisesRowChangeEventHandler" msprop:Generator_RowDeletedName="paisesRowDeleted" msprop:Generator_UserTableName="paises" msprop:Generator_RowChangedName="paisesRowChanged" msprop:Generator_RowEvArgName="paisesRowChangeEvent" msprop:Generator_RowClassName="paisesRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="reserva" msprop:Generator_TableClassName="reservaDataTable" msprop:Generator_TableVarName="tablereserva" msprop:Generator_TablePropName="reserva" msprop:Generator_RowDeletingName="reservaRowDeleting" msprop:Generator_RowChangingName="reservaRowChanging" msprop:Generator_RowEvHandlerName="reservaRowChangeEventHandler" msprop:Generator_RowDeletedName="reservaRowDeleted" msprop:Generator_UserTableName="reserva" msprop:Generator_RowChangedName="reservaRowChanged" msprop:Generator_RowEvArgName="reservaRowChangeEvent" msprop:Generator_RowClassName="reservaRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sp.cepaberto_parte_1" msprop:Generator_TableClassName="_sp_cepaberto_parte_1DataTable" msprop:Generator_TableVarName="_tablesp_cepaberto_parte_1" msprop:Generator_TablePropName="_sp_cepaberto_parte_1" msprop:Generator_RowDeletingName="_sp_cepaberto_parte_1RowDeleting" msprop:Generator_RowChangingName="_sp_cepaberto_parte_1RowChanging" msprop:Generator_RowEvHandlerName="_sp_cepaberto_parte_1RowChangeEventHandler" msprop:Generator_RowDeletedName="_sp_cepaberto_parte_1RowDeleted" msprop:Generator_UserTableName="sp.cepaberto_parte_1" msprop:Generator_RowChangedName="_sp_cepaberto_parte_1RowChanged" msprop:Generator_RowEvArgName="_sp_cepaberto_parte_1RowChangeEvent" msprop:Generator_RowClassName="_sp_cepaberto_parte_1Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tmb_end" msprop:Generator_TableClassName="tmb_endDataTable" msprop:Generator_TableVarName="tabletmb_end" msprop:Generator_TablePropName="tmb_end" msprop:Generator_RowDeletingName="tmb_endRowDeleting" msprop:Generator_RowChangingName="tmb_endRowChanging" msprop:Generator_RowEvHandlerName="tmb_endRowChangeEventHandler" msprop:Generator_RowDeletedName="tmb_endRowDeleted" msprop:Generator_UserTableName="tmb_end" msprop:Generator_RowChangedName="tmb_endRowChanged" msprop:Generator_RowEvArgName="tmb_endRowChangeEvent" msprop:Generator_RowClassName="tmb_endRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="turma" msprop:Generator_TableClassName="turmaDataTable" msprop:Generator_TableVarName="tableturma" msprop:Generator_TablePropName="turma" msprop:Generator_RowDeletingName="turmaRowDeleting" msprop:Generator_RowChangingName="turmaRowChanging" msprop:Generator_RowEvHandlerName="turmaRowChangeEventHandler" msprop:Generator_RowDeletedName="turmaRowDeleted" msprop:Generator_UserTableName="turma" msprop:Generator_RowChangedName="turmaRowChanged" msprop:Generator_RowEvArgName="turmaRowChangeEvent" msprop:Generator_RowClassName="turmaRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="uf" msprop:Generator_TableClassName="ufDataTable" msprop:Generator_TableVarName="tableuf" msprop:Generator_TablePropName="uf" msprop:Generator_RowDeletingName="ufRowDeleting" msprop:Generator_RowChangingName="ufRowChanging" msprop:Generator_RowEvHandlerName="ufRowChangeEventHandler" msprop:Generator_RowDeletedName="ufRowDeleted" msprop:Generator_UserTableName="uf" msprop:Generator_RowChangedName="ufRowChanged" msprop:Generator_RowEvArgName="ufRowChangeEvent" msprop:Generator_RowClassName="ufRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

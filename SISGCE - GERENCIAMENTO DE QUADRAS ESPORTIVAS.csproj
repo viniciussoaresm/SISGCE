@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D2A7AC26-16E4-4264-B3AC-2EF74A4CC67F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Boca_Junior___Gerencia_de_quadras</RootNamespace>
+    <AssemblyName>SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="conexao.cs" />
+    <Compile Include="controlers\controlerReserva.cs" />
+    <Compile Include="controlers\controlerCliente.cs" />
+    <Compile Include="DAO\daoReserva.cs" />
+    <Compile Include="DAO\daoCliente.cs" />
+    <Compile Include="models\modelEndereco.cs" />
+    <Compile Include="models\modelClienteEndereco.cs" />
+    <Compile Include="models\modelAluno.cs" />
+    <Compile Include="models\modelReserva.cs" />
+    <Compile Include="models\modelCliente.cs" />
+    <Compile Include="tools.cs" />
+    <Compile Include="views\viewRelatorioCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewRelatorioCliente.Designer.cs">
+      <DependentUpon>viewRelatorioCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewHome.Designer.cs">
+      <DependentUpon>viewHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewGerenciarLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewGerenciarLogin.Designer.cs">
+      <DependentUpon>viewGerenciarLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="views\viewCadastrarTurma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewCadastrarTurma.Designer.cs">
+      <DependentUpon>viewCadastrarTurma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewCadastroAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewCadastroAluno.Designer.cs">
+      <DependentUpon>viewCadastroAluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewCadastroFunionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewCadastroFunionario.Designer.cs">
+      <DependentUpon>viewCadastroFunionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewRelatorioFuncionariocs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewRelatorioFuncionariocs.Designer.cs">
+      <DependentUpon>viewRelatorioFuncionariocs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewRelatorioReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewRelatorioReserva.Designer.cs">
+      <DependentUpon>viewRelatorioReserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewRelatorioTurma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewRelatorioTurma.Designer.cs">
+      <DependentUpon>viewRelatorioTurma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewReservaQuadra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewReservaQuadra.Designer.cs">
+      <DependentUpon>viewReservaQuadra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewTelaCadastroCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewTelaCadastroCliente.Designer.cs">
+      <DependentUpon>viewTelaCadastroCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\viewTelaRelatorioAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\viewTelaRelatorioAluno.Designer.cs">
+      <DependentUpon>viewTelaRelatorioAluno.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="views\viewRelatorioCliente.resx">
+      <DependentUpon>viewRelatorioCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewGerenciarLogin.resx">
+      <DependentUpon>viewGerenciarLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="views\viewCadastrarTurma.resx">
+      <DependentUpon>viewCadastrarTurma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewCadastroAluno.resx">
+      <DependentUpon>viewCadastroAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewCadastroFunionario.resx">
+      <DependentUpon>viewCadastroFunionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewHome.resx">
+      <DependentUpon>viewHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewRelatorioFuncionariocs.resx">
+      <DependentUpon>viewRelatorioFuncionariocs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewRelatorioReserva.resx">
+      <DependentUpon>viewRelatorioReserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewRelatorioTurma.resx">
+      <DependentUpon>viewRelatorioTurma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewReservaQuadra.resx">
+      <DependentUpon>viewReservaQuadra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewTelaCadastroCliente.resx">
+      <DependentUpon>viewTelaCadastroCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\viewTelaRelatorioAluno.resx">
+      <DependentUpon>viewTelaRelatorioAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\football.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\football1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo botao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JJJ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JJJ1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JJJ2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FFF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FFFF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DDFF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OOF.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

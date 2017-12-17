@@ -1,0 +1,36 @@
+c:\users\vinicius\documents\visual studio 2015\Projects\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\bin\Debug\Boca Junior - Gerencia de quadras.exe.config
+c:\users\vinicius\documents\visual studio 2015\Projects\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca Junior - Gerencia de quadras.csprojResolveAssemblyReference.cache
+c:\users\vinicius\documents\visual studio 2015\Projects\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.Properties.Resources.resources
+c:\users\vinicius\documents\visual studio 2015\Projects\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewTelaCadastroCliente.resources
+c:\users\vinicius\documents\visual studio 2015\Projects\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca Junior - Gerencia de quadras.csproj.GenerateResource.Cache
+c:\users\vinicius\documents\visual studio 2015\Projects\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\bin\Debug\Boca Junior - Gerencia de quadras.exe
+c:\users\vinicius\documents\visual studio 2015\Projects\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\bin\Debug\Boca Junior - Gerencia de quadras.pdb
+c:\users\vinicius\documents\visual studio 2015\Projects\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca Junior - Gerencia de quadras.exe
+c:\users\vinicius\documents\visual studio 2015\Projects\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca Junior - Gerencia de quadras.pdb
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastroAluno.resources
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastroFunionario.resources
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioFuncionariocs.resources
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewTelaRelatorioAluno.resources
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastrarTurma.resources
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioTurma.resources
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioReserva.resources
+C:\Users\Vinicius\Documents\Visual Studio 2015\Projects\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.GerenciarLogin.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\bin\Debug\Boca Junior - Gerencia de quadras.exe.config
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca Junior - Gerencia de quadras.exe
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca Junior - Gerencia de quadras.pdb
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\bin\Debug\Boca Junior - Gerencia de quadras.exe
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\bin\Debug\Boca Junior - Gerencia de quadras.pdb
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca Junior - Gerencia de quadras.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.Properties.Resources.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastrarTurma.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastroAluno.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewCadastroFunionario.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioFuncionariocs.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioReserva.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewRelatorioTurma.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewTelaCadastroCliente.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewTelaRelatorioAluno.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca Junior - Gerencia de quadras.csproj.GenerateResource.Cache
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewGerenciarLogin.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Debug\Boca_Junior___Gerencia_de_quadras.viewReservaQuadra.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\bin\Debug\SISGCE - GERENCIAMENTO DE QUADRAS ESPORTIVAS.exe.config

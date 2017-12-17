@@ -1,0 +1,18 @@
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\bin\Release\Boca Junior - Gerencia de quadras.exe.config
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\bin\Release\Boca Junior - Gerencia de quadras.exe
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\bin\Release\Boca Junior - Gerencia de quadras.pdb
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Release\Boca Junior - Gerencia de quadras.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Release\Boca_Junior___Gerencia_de_quadras.viewGerenciarLogin.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Release\Boca_Junior___Gerencia_de_quadras.Properties.Resources.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Release\Boca_Junior___Gerencia_de_quadras.viewCadastrarTurma.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Release\Boca_Junior___Gerencia_de_quadras.viewCadastroAluno.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Release\Boca_Junior___Gerencia_de_quadras.viewCadastroFunionario.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Release\Boca_Junior___Gerencia_de_quadras.viewRelatorioFuncionariocs.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Release\Boca_Junior___Gerencia_de_quadras.viewRelatorioReserva.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Release\Boca_Junior___Gerencia_de_quadras.viewRelatorioTurma.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Release\Boca_Junior___Gerencia_de_quadras.viewReservaQuadra.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Release\Boca_Junior___Gerencia_de_quadras.viewTelaCadastroCliente.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Release\Boca_Junior___Gerencia_de_quadras.viewTelaRelatorioAluno.resources
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Release\Boca Junior - Gerencia de quadras.csproj.GenerateResource.Cache
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Release\Boca Junior - Gerencia de quadras.exe
+C:\Users\Vinicius\Desktop\Boca Junior - Gerencia de quadras\Boca Junior - Gerencia de quadras\obj\Release\Boca Junior - Gerencia de quadras.pdb

@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Boca_Junior___Gerencia_de_quadras.Conexao" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>conexao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.controlerCliente" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEAABAAIAgAAowAQEAAIAAAAAAAAAAAgYAgAAAAAA=</HashCode>
+      <FileName>controlers\controlerCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.controlerEndereco" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQEAAAAAAgABAAAAAAAAAAAAAAASAAAAAIAA=</HashCode>
+      <FileName>controlers\controlerEndereco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.controlerReserva">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAABgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>controlers\controlerReserva.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.daoCliente">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAEABAAAQIAAAAAAABAAAAAAAAgAAIQAIABChAACA=</HashCode>
+      <FileName>DAO\daoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.daoEndereco" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAgABAAIAAAAAAAAAAQASAAAAAAAA=</HashCode>
+      <FileName>DAO\daoEndereco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.daoReserva" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAAAAAAAgAAAAAAAAAAAAAAAAUAAAAAIAEBA=</HashCode>
+      <FileName>DAO\daoReserva.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.modelBairro" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIAAAACAAAAAAAAAAAAACAAAAAgAAAAAAAAAEAAAA=</HashCode>
+      <FileName>models\modelBairro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.modelCidade" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAIAAAAiAAAAAAAAAAAAAAAAAAAAgAAAAKEAAAA=</HashCode>
+      <FileName>models\modelCidade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.modelCliente" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAIAgACAAJAAoACQAAKAAAIAABAEAAAQAgGAEAA=</HashCode>
+      <FileName>models\modelCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.modelClienteEndereco" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAACggAIAFAACAEAAAAAACAAAAAgAAAAAEAAAABAAo=</HashCode>
+      <FileName>models\modelClienteEndereco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.modelEndereco" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAQAgAAAAAAAAEAAAABAAAAAAAAAAAAAAQAAAAEEA=</HashCode>
+      <FileName>models\modelEndereco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.modelReserva" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAACAAAAAgIAAABCAAQAQAEEAAAA=</HashCode>
+      <FileName>models\modelReserva.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.modelUf" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAIAAAACAAAgAAAAIAAAAAAEAAAA=</HashCode>
+      <FileName>models\modelUf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.Program" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.tools" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACCAEAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>tools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.viewCadastrarTurma" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAQAACAAAACAFA5AAAAEDAAAAAAAAA=</HashCode>
+      <FileName>views\viewCadastrarTurma.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.viewCadastroAluno" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAFgAACABADAIAACAAKACAsAAAAAAEGAAEAAiAAA=</HashCode>
+      <FileName>views\viewCadastroAluno.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.viewCadastroFunionario" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YCAAAAAAASEAABCSAACAAABCIMAIAAAAECAEAAEAAIA=</HashCode>
+      <FileName>views\viewCadastroFunionario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.viewGerenciarLogin" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAQAAACAAAACAEgBAQAAACAIAAAAAAA=</HashCode>
+      <FileName>views\viewGerenciarLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.viewHome" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIZIAAABASAA5gAOAoCAAAGCABggIAAAEAAIIAgAAAA=</HashCode>
+      <FileName>views\viewHome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.viewRelatorioCliente" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAGAADACAEAJRAgDCASCpCIAAgUAAEACAUAIAQIAA=</HashCode>
+      <FileName>views\viewRelatorioCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.viewRelatorioFuncionariocs" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAABAAAACAAAACAMgIAAAAECAAAAAAAAA=</HashCode>
+      <FileName>views\viewRelatorioFuncionariocs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.viewRelatorioReserva" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABACAACAAAACAMgoAAAAECAEAAAAAAI=</HashCode>
+      <FileName>views\viewRelatorioReserva.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.viewRelatorioTurma" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAQAACAAAACAMgIAAAAECAAAAAAAAA=</HashCode>
+      <FileName>views\viewRelatorioTurma.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.viewReservaQuadra" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAMKACAiABYAkCCAAAACgAAgAAwBQWAUAEEQAAA=</HashCode>
+      <FileName>views\viewReservaQuadra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.viewTelaCadastroCliente" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/0AOKhQBgiAQBBQAAmCIAUgCAEAAABIhgDBEAiBgADA=</HashCode>
+      <FileName>views\viewTelaCadastroCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.viewTelaRelatorioAluno" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAABAQAACAAAACAIgJAAAAECACAAAAAAA=</HashCode>
+      <FileName>views\viewTelaRelatorioAluno.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.models.modelAluno" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>models\modelAluno.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.Properties.Resources" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAJAAAAAAABAFEgAAFQAEAIABQAAACACAEIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boca_Junior___Gerencia_de_quadras.Properties.Settings" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAIAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
